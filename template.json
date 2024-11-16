@@ -1,0 +1,26 @@
+{
+  "name": "create_new_tenant_1",
+  "rename": "Create New Tenant",
+  "tabs": [
+    {
+      "tab_name": "business_info",
+      "tab_rename": "Business Info",
+      "tab_is_active": true,
+      "tab_sections": [
+        {
+          "section_name": "business_information",
+          "section_rename": "Business Information",
+          "section_is_active": true,
+          "section_fields": [
+            {
+              "field_name": "business_legal_name",
+              "field_rename": "Business Legal Name",
+              "field_type": "text",
+              "field_is_active": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

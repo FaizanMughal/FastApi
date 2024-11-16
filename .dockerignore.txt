@@ -1,0 +1,33 @@
+# Ignore hidden files and folders
+.*
+!.dockerignore
+!Dockerfile
+
+# Ignore system directories
+AppData/
+node_modules/
+.ipynb_checkpoints/
+.vscode/
+.VirtualBox/
+.conda/
+.continuum/
+.jupyter/
+.ipython/
+.ms-ad/
+anaconda3/
+
+# Ignore common file types
+*.log
+*.txt
+*.pdf
+*.exe
+*.mp4
+*.zip
+*.iso
+*.jpg
+*.png
+*.tar
+
+# Ignore Python cache files
+*.pyc
+__pycache__
